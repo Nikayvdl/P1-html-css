@@ -9,7 +9,19 @@ html {
 body {
   font-family: "Goldman", cursive;
 }
-
+.background {
+  background-image: url("../img/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.background-black {
+  background-color: black;
+}
+.background-black p {
+  color: white;
+}
 nav {
   display: flex;
   width: 100%;
@@ -36,4 +48,8 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+footer {
+  background-color: #00a8c7;
+  height: 5vh;
 }
