@@ -1,9 +1,21 @@
 header {
-    background-image: url(img/games.jpg);
-    height: 35vw;
+    background-image: url('./img/diofield.jpeg');
+    height: 33vh;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+header h1{
+    color: white
+}
+header p {
+    color: white
+}
+img{
+    width: 50vw;
 }
 
 h1{
