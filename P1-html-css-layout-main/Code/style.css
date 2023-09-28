@@ -3,11 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+header h1{
+  text-align: center;
+  margin-top: 100px; 
+  font-size: 35px;
+}
 html {
   font-size: 62.5%;
 }
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  position: relative;
 }
 .background {
   background-image: url("../img/background.jpeg");
@@ -32,6 +39,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+position:sticky;  
+top:0
 }
 nav ul {
   display: flex;
@@ -49,7 +58,57 @@ nav a {
 nav img {
   width: 5vw;
 }
+section img {
+  width:30vw;
+}
+.text {
+  float: right;
+  width: 50%;
+  margin-top: 100px;
+}
+  .text2 {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+  }
+
 footer {
   background-color: #00a8c7;
   height: 5vh;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10vw;
+  z-index: 1;
+  box-shadow: 0rem, 0.5rem, 1rem, 0rem rgba(0, 0, 0, 0, 2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0,8rem, 1rem;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #E9E9E9;
+}
+
+.dropbtn:hover {
+  color: black;
+  background-color: white;
+}
+
+.dropbtn {
+  padding:  10px 20px 10px 20px
 }
